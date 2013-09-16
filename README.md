@@ -8,6 +8,12 @@ Simply use the [transform-flow-visualisation][transform-flow-visualisation] comm
 
 [transform-flow-visualisation]: https://github.com/HITLabNZ/transform-flow-visualisation
 
+## Considerations
+
+### Camera Intrinsics
+
+Currently, camera intrinsics are not captured, as these are not available automatically. By default, iPhone video frames are captured with a ~55degree field of view. In the future we may try to rectify this by including some type of camera intrinsics configuration along with the data set.
+
 ## Contributing
 
 The data sets are deliberately compressed using 80% quality JPEG. The data capture tool captures high quality PNG files. To convert your files, use image magick:
