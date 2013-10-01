@@ -8,6 +8,15 @@ Simply use the [transform-flow-visualisation][transform-flow-visualisation] comm
 
 [transform-flow-visualisation]: https://github.com/HITLabNZ/transform-flow-visualisation
 
+### Standard Data Sets
+
+Several of these data sets have been designated standard and can be referred to in research using a code:
+
+	2013A | 2013 University of Canterbury/VideoStream-2013-07-09-16-04-47
+	2013B | 2013 University of Canterbury/VideoStream-2013-07-09-17-58-39
+
+When using a particular tracking point data set, append the tracking point index to the data set name, e.g. `2013A0`.
+
 ## Considerations
 
 ### Camera Intrinsics
